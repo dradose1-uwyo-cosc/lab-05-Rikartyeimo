@@ -25,6 +25,6 @@ def plaintext_to_mors(plaintext):
             mors_code += "  "
     return mors_code.strip()
 
-Enter = input("Please, Write a word/sentence:")
+Enter = input("Please, Write a sentence:")
 output_mors = plaintext_to_mors(Enter)
 print("Abjad Result:", output_mors)
